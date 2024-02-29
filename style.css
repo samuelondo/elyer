@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.primero{
+    padding-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 40px;
+}
+
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 50px;
+    height: 30px;
+    margin: 30px;
+} 
+
+.texto{
+    display: none;
+}
+
+.carousel-container {
+
+    display: flex;
+    overflow: hidden;
+    width: 80%; 
+    max-width: 400px;
+}
+
+
+.prev-button,
+.next-button {
+    font-size: 30px;
+    background-color: transparent;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+img {
+    top: 10%;
+    width: 100%;
+    height: 70%;
+}
+
+.pasar{
+    display: none;
+}
+/* style.css */
+
+.carousel-container {
+    display: none;
+}
+
+.primero {
+    display: block; 
+}
+
+
+
+body {
+    background-image: url('./fondoo.jpeg');   
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.si, .no {
+    color:#333;
+    background-color: #fff;
+    border: none;
+    border-radius: 20%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+@media only screen and (min-width: 800px){
+    body {
+        background-image: url('./fondo.jpeg');   
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+    
+    
+}
+
+#info{
+    display: none;
+}
+
+.contacto{
+    display: none;
+}
